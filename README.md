@@ -9,9 +9,9 @@ consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-Furthermore, this script reformats the dateline by taking the text in the first paragraph, storying the text in a table created on the fly, and doing a regex against the paragraph text for the date line (the Regex is told to stop at the em dash after the dateline). Lastly, everything before the dateline value is replaced with it's uppercase version like so:
+Furthermore, this script reformats the dateline by taking the text in the first paragraph, stores the text in a table created on the fly, and doing a replace against the paragraph text for the date line text (the replace is told to stop at the em dash after the dateline). Lastly, everything before the dateline value is replaced with it's uppercase version like so:
 
-new york - Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+NEW YORK - Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
